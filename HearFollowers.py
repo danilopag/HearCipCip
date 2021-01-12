@@ -30,7 +30,7 @@ except:
     print("Error during authentication")
 
 #Print last 20 Followers
-user = api.get_user("lucamariano17")
+user = api.get_user("univeti")
 
 print("USER Details: \n")
 print(user.name)
@@ -42,9 +42,9 @@ for follower in user.followers():
     print(follower.name)
     print(follower.description)
 #Tendenza Hashtag #primagliitaliani
-for tweet in api.search(q="#primagliitaliani", lang="it", rpp=10):
+for tweet in api.search(q="#instagram", lang="it", rpp=10):
     print(f"{tweet.user.name}:{tweet.text}")
 
 #Print last 50 tweets
-for tweet in Cursor(api.user_timeline, id="lucamariano17").items(20):
+for tweet in Cursor(api.user_timeline, id="univeti").items(20):
     print(f"{tweet.user.name} said: {tweet.text}")
