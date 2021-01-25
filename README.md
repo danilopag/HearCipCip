@@ -9,4 +9,4 @@ I codici in questione mostrano:
 NOTA SU Politici Training: Il contenuto del codice verte sulla predizione dell' AI, che deve puntare a riconoscere l'autore di quel Tweet (che è compreso all'interno dell'addestramento)
                     il maggior numero di volte possibile. Con ciò si voleva dimostrare la continuità delle parole utilizzate da questi esponenti politici nel vario intervallo di 
                     tempo/tweet preso in esame. I test sono realizzati per pura conoscenza e sperimentazione delle librerie a fini didattici e personali, con
-                    ciò i politici presi in esame sono ASSOLUTAMENTE generici e il test è totalmenta Apolitico.
+                    ciò i politici presi in esame sono ASSOLUTAMENTE generici e il test è totalmente Apolitico.
